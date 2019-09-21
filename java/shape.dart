@@ -32,6 +32,11 @@ class Square implements Shape {
   num get area => pow(slide, 2);
 }
 
+class CircleMock implements Circle {
+  num area;
+  num radius;
+}
+
 void main() {
   final circle = Shape('circle');
   final square = Shape('square');
